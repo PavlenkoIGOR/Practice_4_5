@@ -15,7 +15,7 @@ namespace _4_5_practice
             byte n = Convert.ToByte(Console.ReadLine());
             for (int i = 0; i < n; i++)
             {
-
+                Console.WriteLine("\tПользователь №{0}", i+1);
                 Console.Write("enter your name: ");
                 user.NameOf = Console.ReadLine();
                 Console.Write("enter your surname: ");
@@ -54,7 +54,7 @@ namespace _4_5_practice
                 Console.WriteLine("питомец: {0}", user.Pet);
                 Console.WriteLine("любимые цвета: {0}, {1}, {2}", user.FavColors[0], user.FavColors[1], user.FavColors[2]);
                 Console.WriteLine("login: {0}", user.Login);
-                Console.WriteLine("length of login: {0}, {1}", a, user.Login.Length);
+                Console.WriteLine("length of login: {0}", user.Login.Length);
 
             }
 
